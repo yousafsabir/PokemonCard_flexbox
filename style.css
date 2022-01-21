@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Play;
+  src: url(./assessts/fonts/Play-Bold.ttf);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  font-family: Play, sans-serif;
+  font-size: 24px;
+  /* font-weight: bolder; */
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.img-container {
+  width: 400px;
+  height: 400px;
+  background-image: linear-gradient(to bottom right, #0274d1 0%, #142a8b 100%);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 200px;
+  border-radius: 8px;
+}
+
+.description {
+  width: 400px;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
