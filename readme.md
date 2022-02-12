@@ -1,0 +1,1 @@
+I created a simple pokemon card with the game details below it in nice style using flexbox which I learnt from Dev Dreamer
